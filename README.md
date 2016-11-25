@@ -8,6 +8,7 @@ Personal notes to run and develop react-native apps
 > export ANDROID_HOME=~/Android/Sdk
 > export PATH=${PATH}:${ANDROID_HOME}/tools
 > export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+- Create a `local.properties` file with this line in it: `sdk.dir = /root/Android/Sdk`
 - To initialize react native project, run `sudo react-native init ProjectName`
 - `cd ProjectName`
 - `sudo react-native run-android` to build and run app on android device. Red screen appears
